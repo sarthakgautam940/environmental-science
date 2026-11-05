@@ -1,0 +1,587 @@
+{
+ "noaa_est01": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "What is an estuary? (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est01_whatis.html",
+  "kind": "government"
+ },
+ "noaa_est03": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "Ecosystem services (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est03_ecosystem.html",
+  "kind": "government"
+ },
+ "noaa_est04": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "Classifying estuaries: By geology (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est04_geology.html",
+  "kind": "government"
+ },
+ "noaa_est05": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "Classifying estuaries: By water circulation (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est05_circulation.html",
+  "kind": "government"
+ },
+ "noaa_est06": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "Estuarine habitats (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est06_habitats.html",
+  "kind": "government"
+ },
+ "noaa_est07": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "Adaptations to life in the estuary (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est07_adaptations.html",
+  "kind": "government"
+ },
+ "noaa_est09": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "Human disturbances to estuaries (Estuaries tutorial)",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est09_humandis.html",
+  "kind": "government"
+ },
+ "cbp_facts": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Bay facts",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/bay-facts",
+  "kind": "government"
+ },
+ "cbp_physical": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Physical characteristics",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/ecosystem/physical-characteristics",
+  "kind": "government"
+ },
+ "cbp_do": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Dissolved oxygen",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/ecosystem/dissolved-oxygen",
+  "kind": "government"
+ },
+ "usgs_susq": {
+  "authors": "U.S. Geological Survey",
+  "year": "2025",
+  "title": "Monthly mean discharge statistics, USGS 01578310 Susquehanna River at Conowingo, Maryland (NWIS Statistics Service)",
+  "container": "",
+  "publisher": "",
+  "url": "https://waterservices.usgs.gov/nwis/stat/?format=rdb&sites=01578310&statReportType=monthly&statTypeCd=mean&parameterCd=00060",
+  "kind": "dataset"
+ },
+ "venice1958": {
+  "authors": "Symposium on the Classification of Brackish Waters",
+  "year": "1958",
+  "title": "The Venice System for the classification of marine waters according to salinity",
+  "container": "Limnology and Oceanography, 3(3), 346–347",
+  "publisher": "",
+  "url": "https://doi.org/10.4319/lo.1958.3.3.0346",
+  "kind": "journal"
+ },
+ "freshwaterinflow": {
+  "authors": "Freshwater Inflows (Texas A&M University–Corpus Christi, Harte Research Institute)",
+  "year": "n.d.",
+  "title": "Salinity",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.freshwaterinflow.org/salinity/",
+  "kind": "university"
+ },
+ "schubel1968": {
+  "authors": "Schubel, J. R.",
+  "year": "1968",
+  "title": "Turbidity maximum of the northern Chesapeake Bay",
+  "container": "Science, 161(3845), 1013–1015",
+  "publisher": "",
+  "url": "https://doi.org/10.1126/science.161.3845.1013",
+  "kind": "journal"
+ },
+ "sutherland2015": {
+  "authors": "Sutherland, B. R., Barrett, K. J., & Gingras, M. K.",
+  "year": "2014",
+  "title": "Clay settling in fresh and salt water",
+  "container": "Environmental Fluid Mechanics, 15(1), 147–160",
+  "publisher": "",
+  "url": "https://doi.org/10.1007/s10652-014-9365-0",
+  "kind": "journal"
+ },
+ "koch1990": {
+  "authors": "Koch, M. S., Mendelssohn, I. A., & McKee, K. L.",
+  "year": "1990",
+  "title": "Mechanism for the hydrogen sulfide-induced growth limitation in wetland macrophytes",
+  "container": "Limnology and Oceanography, 35(2), 399–408",
+  "publisher": "",
+  "url": "https://doi.org/10.4319/lo.1990.35.2.0399",
+  "kind": "journal"
+ },
+ "usda_spal": {
+  "authors": "USDA Natural Resources Conservation Service",
+  "year": "n.d.",
+  "title": "Plant guide: Smooth cordgrass, Spartina alterniflora",
+  "container": "",
+  "publisher": "",
+  "url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_spal.pdf",
+  "kind": "government"
+ },
+ "cbp_cordgrass": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Smooth cordgrass (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/smooth-cordgrass",
+  "kind": "government"
+ },
+ "bradley1991": {
+  "authors": "Bradley, P. M., & Morris, J. T.",
+  "year": "1991",
+  "title": "Relative importance of ion exclusion, secretion and accumulation in Spartina alterniflora Loisel.",
+  "container": "Journal of Experimental Botany, 42(12), 1525–1532",
+  "publisher": "",
+  "url": "https://doi.org/10.1093/jxb/42.12.1525",
+  "kind": "journal"
+ },
+ "flowers2008": {
+  "authors": "Flowers, T. J., & Colmer, T. D.",
+  "year": "2008",
+  "title": "Salinity tolerance in halophytes",
+  "container": "New Phytologist, 179(4), 945–963",
+  "publisher": "",
+  "url": "https://doi.org/10.1111/j.1469-8137.2008.02531.x",
+  "kind": "journal"
+ },
+ "cbp_eelgrass": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Eelgrass (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/eelgrass",
+  "kind": "government"
+ },
+ "dennison1993": {
+  "authors": "Dennison, W. C., Orth, R. J., Moore, K. A., et al.",
+  "year": "1993",
+  "title": "Assessing water quality with submersed aquatic vegetation",
+  "container": "BioScience, 43(2), 86–94",
+  "publisher": "",
+  "url": "https://doi.org/10.2307/1311969",
+  "kind": "journal"
+ },
+ "nasa_phyto": {
+  "authors": "NASA Earth Observatory",
+  "year": "n.d.",
+  "title": "What are phytoplankton?",
+  "container": "",
+  "publisher": "",
+  "url": "https://science.nasa.gov/earth/earth-observatory/what-are-phytoplankton/",
+  "kind": "government"
+ },
+ "cbp_oyster": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Eastern oyster (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/eastern-oyster",
+  "kind": "government"
+ },
+ "pierce1982": {
+  "authors": "Pierce, S. K.",
+  "year": "1982",
+  "title": "Invertebrate cell volume control mechanisms: A coordinated use of intracellular amino acids and inorganic ions as osmotic solute",
+  "container": "The Biological Bulletin, 163(3), 405–419",
+  "publisher": "",
+  "url": "https://doi.org/10.2307/1541452",
+  "kind": "journal"
+ },
+ "towle1976": {
+  "authors": "Towle, D. W., Palmer, G. E., & Harris, J. L.",
+  "year": "1976",
+  "title": "Role of gill Na+ + K+-dependent ATPase in acclimation of blue crabs (Callinectes sapidus) to low salinity",
+  "container": "Journal of Experimental Zoology, 196(3), 315–321",
+  "publisher": "",
+  "url": "https://doi.org/10.1002/jez.1401960306",
+  "kind": "journal"
+ },
+ "cbp_bluecrab": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Blue crab (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/blue-crab",
+  "kind": "government"
+ },
+ "adw_uca": {
+  "authors": "Animal Diversity Web, University of Michigan Museum of Zoology",
+  "year": "n.d.",
+  "title": "Uca pugnax, Atlantic marsh fiddler",
+  "container": "",
+  "publisher": "",
+  "url": "https://animaldiversity.org/accounts/Uca_pugnax/",
+  "kind": "university"
+ },
+ "bertness1985": {
+  "authors": "Bertness, M. D.",
+  "year": "1985",
+  "title": "Fiddler crab regulation of Spartina alterniflora production on a New England salt marsh",
+  "container": "Ecology, 66(3), 1042–1055",
+  "publisher": "",
+  "url": "https://doi.org/10.2307/1940564",
+  "kind": "journal"
+ },
+ "bennett1957": {
+  "authors": "Bennett, M. F., Shriner, J., & Brown, R. A.",
+  "year": "1957",
+  "title": "Persistent tidal cycles of spontaneous motor activity in the fiddler crab, Uca pugnax",
+  "container": "The Biological Bulletin, 112(3), 267–275",
+  "publisher": "",
+  "url": "https://doi.org/10.2307/1539119",
+  "kind": "journal"
+ },
+ "bertness1984": {
+  "authors": "Bertness, M. D.",
+  "year": "1984",
+  "title": "Ribbed mussels and Spartina alterniflora production in a New England salt marsh",
+  "container": "Ecology, 65(6), 1794–1807",
+  "publisher": "",
+  "url": "https://doi.org/10.2307/1937776",
+  "kind": "journal"
+ },
+ "lent1969": {
+  "authors": "Lent, C. M.",
+  "year": "1969",
+  "title": "Adaptations of the ribbed mussel, Modiolus demissus (Dillwyn), to the intertidal habitat",
+  "container": "American Zoologist, 9(2), 283–292",
+  "publisher": "",
+  "url": "https://doi.org/10.1093/icb/9.2.283",
+  "kind": "journal"
+ },
+ "cbp_periwinkle": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Marsh periwinkle (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/marsh-periwinkle",
+  "kind": "government"
+ },
+ "silliman2003": {
+  "authors": "Silliman, B. R., & Newell, S. Y.",
+  "year": "2003",
+  "title": "Fungal farming in a snail",
+  "container": "Proceedings of the National Academy of Sciences, 100(26), 15643–15648",
+  "publisher": "",
+  "url": "https://doi.org/10.1073/pnas.2535227100",
+  "kind": "journal"
+ },
+ "silliman2002": {
+  "authors": "Silliman, B. R., & Bertness, M. D.",
+  "year": "2002",
+  "title": "A trophic cascade regulates salt marsh primary production",
+  "container": "Proceedings of the National Academy of Sciences, 99(16), 10500–10505",
+  "publisher": "",
+  "url": "https://doi.org/10.1073/pnas.162366599",
+  "kind": "journal"
+ },
+ "cbp_mummichog": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Mummichog (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/mummichog",
+  "kind": "government"
+ },
+ "marshall2002": {
+  "authors": "Marshall, W. S.",
+  "year": "2002",
+  "title": "Na+, Cl−, Ca2+ and Zn2+ transport by fish gills: Retrospective review and prospective synthesis",
+  "container": "Journal of Experimental Zoology, 293(3), 264–283",
+  "publisher": "",
+  "url": "https://doi.org/10.1002/jez.10127",
+  "kind": "journal"
+ },
+ "cbp_stripedbass": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Striped bass (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/striped-bass",
+  "kind": "government"
+ },
+ "cbp_gbheron": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Great blue heron (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/great-blue-heron",
+  "kind": "government"
+ },
+ "cbp_snowyegret": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Snowy egret (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/snowy-egret",
+  "kind": "government"
+ },
+ "cbp_greategret": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Great egret (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/great-egret",
+  "kind": "government"
+ },
+ "cbp_osprey": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Osprey (field guide)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/discover/field-guide/entry/osprey",
+  "kind": "government"
+ },
+ "cornell_osprey": {
+  "authors": "Cornell Lab of Ornithology",
+  "year": "n.d.",
+  "title": "Osprey overview (All About Birds)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.allaboutbirds.org/guide/Osprey/overview",
+  "kind": "university"
+ },
+ "epa_sources": {
+  "authors": "U.S. Environmental Protection Agency",
+  "year": "n.d.",
+  "title": "Nutrient pollution: Sources and solutions",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.epa.gov/nutrientpollution/sources-and-solutions",
+  "kind": "government"
+ },
+ "epa_ag": {
+  "authors": "U.S. Environmental Protection Agency",
+  "year": "n.d.",
+  "title": "Sources and solutions: Agriculture",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.epa.gov/nutrientpollution/sources-and-solutions-agriculture",
+  "kind": "government"
+ },
+ "epa_tmdl": {
+  "authors": "U.S. Environmental Protection Agency",
+  "year": "n.d.",
+  "title": "Chesapeake Bay Total Maximum Daily Load (TMDL)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.epa.gov/chesapeake-bay-tmdl",
+  "kind": "government"
+ },
+ "yonkos2014": {
+  "authors": "Yonkos, L. T., Friedel, E. A., Perez-Reyes, A. C., Ghosal, S., & Arthur, C. D.",
+  "year": "2014",
+  "title": "Microplastics in four estuarine rivers in the Chesapeake Bay, U.S.A.",
+  "container": "Environmental Science & Technology, 48(24), 14195–14202",
+  "publisher": "",
+  "url": "https://doi.org/10.1021/es5036317",
+  "kind": "journal"
+ },
+ "gittman2015": {
+  "authors": "Gittman, R. K., Fodrie, F. J., Popowich, A. M., et al.",
+  "year": "2015",
+  "title": "Engineering away our natural defenses: An analysis of shoreline hardening in the US",
+  "container": "Frontiers in Ecology and the Environment, 13(6), 301–307",
+  "publisher": "",
+  "url": "https://doi.org/10.1890/150065",
+  "kind": "journal"
+ },
+ "kirwan2019": {
+  "authors": "Kirwan, M. L., & Gedan, K. B.",
+  "year": "2019",
+  "title": "Sea-level driven land conversion and the formation of ghost forests",
+  "container": "Nature Climate Change, 9(6), 450–457",
+  "publisher": "",
+  "url": "https://doi.org/10.1038/s41558-019-0488-7",
+  "kind": "journal"
+ },
+ "wilberg2011": {
+  "authors": "Wilberg, M. J., Livings, M. E., Barkman, J. S., Morris, B. T., & Robinson, J. M.",
+  "year": "2011",
+  "title": "Overfishing, disease, habitat loss, and potential extirpation of oysters in upper Chesapeake Bay",
+  "container": "Marine Ecology Progress Series, 436, 131–144",
+  "publisher": "",
+  "url": "https://doi.org/10.3354/meps09161",
+  "kind": "journal"
+ },
+ "thameswater_2026": {
+  "authors": "Thames Water",
+  "year": "2026",
+  "title": "86% drop in sewage discharges into Thames as the operation of Thames Tideway Tunnel transfers to Thames Water",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.thameswater.co.uk/news/2026/oct/86-drop-in-sewage-discharges-into-thames-as-the-operation-of-thames-tideway-tunnel-transfers-to-thames-water",
+  "kind": "ngo"
+ },
+ "thameswater_tunnel": {
+  "authors": "Thames Water",
+  "year": "n.d.",
+  "title": "Thames Tideway Tunnel",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.thameswater.co.uk/about-us/projects/thames-tideway-tunnel",
+  "kind": "ngo"
+ },
+ "noaa_livingshorelines": {
+  "authors": "NOAA Fisheries",
+  "year": "n.d.",
+  "title": "Understanding living shorelines",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.fisheries.noaa.gov/insight/understanding-living-shorelines",
+  "kind": "government"
+ },
+ "epa_nep": {
+  "authors": "U.S. Environmental Protection Agency",
+  "year": "n.d.",
+  "title": "Overview of the National Estuary Program",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.epa.gov/nep/overview-national-estuary-program",
+  "kind": "government"
+ },
+ "noaa_nerrs": {
+  "authors": "NOAA Office for Coastal Management",
+  "year": "n.d.",
+  "title": "National Estuarine Research Reserve System: About",
+  "container": "",
+  "publisher": "",
+  "url": "https://coast.noaa.gov/nerrs/about/",
+  "kind": "government"
+ },
+ "southbay": {
+  "authors": "South Bay Salt Pond Restoration Project",
+  "year": "n.d.",
+  "title": "South Bay Salt Pond Restoration Project (home page)",
+  "container": "",
+  "publisher": "California State Coastal Conservancy and partners",
+  "url": "https://www.southbayrestoration.org/",
+  "kind": "government"
+ },
+ "noaa_oyster2020": {
+  "authors": "NOAA Fisheries",
+  "year": "2020",
+  "title": "Significant progress for Chesapeake Bay oyster reef restoration: yes, even in 2020",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.fisheries.noaa.gov/feature-story/significant-progress-chesapeake-bay-oyster-reef-restoration-yes-even-2020",
+  "kind": "government"
+ },
+ "usfws_sfbay2023": {
+  "authors": "U.S. Fish and Wildlife Service",
+  "year": "2023",
+  "title": "Historic breach opens San Francisco Bay tidal marsh restoration",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.fws.gov/press-release/2023-12/historic-breach-opens-san-francisco-bay-tidal-marsh-restoration",
+  "kind": "government"
+ },
+ "aguas_amazon": {
+  "authors": "Amazon Waters Initiative (Wildlife Conservation Society)",
+  "year": "n.d.",
+  "title": "Flow and floods of the Amazon River",
+  "container": "",
+  "publisher": "",
+  "url": "https://aguasamazonicas.org/waters/flow-floods",
+  "kind": "ngo"
+ },
+ "giri2011": {
+  "authors": "Giri, C., Ochieng, E., Tieszen, L. L., et al.",
+  "year": "2010",
+  "title": "Status and distribution of mangrove forests of the world using earth observation satellite data",
+  "container": "Global Ecology and Biogeography, 20(1), 154–159",
+  "publisher": "",
+  "url": "https://doi.org/10.1111/j.1466-8238.2010.00584.x",
+  "kind": "journal"
+ },
+ "mcowen2017": {
+  "authors": "Mcowen, C. J., Weatherdon, L. V., Van Bochove, J.-W., et al.",
+  "year": "2017",
+  "title": "A global map of saltmarshes",
+  "container": "Biodiversity Data Journal, 5, e11764",
+  "publisher": "",
+  "url": "https://doi.org/10.3897/BDJ.5.e11764",
+  "kind": "journal"
+ },
+ "noaa_ghostforest": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "What is a ghost forest?",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/facts/ghost-forest.html",
+  "kind": "government"
+ },
+ "cbp_climate": {
+  "authors": "Chesapeake Bay Program",
+  "year": "n.d.",
+  "title": "Climate change (Threats to the Bay)",
+  "container": "",
+  "publisher": "",
+  "url": "https://www.chesapeakebay.net/issues/threats-to-the-bay/climate-change",
+  "kind": "government"
+ },
+ "noaa_microplastics": {
+  "authors": "NOAA National Ocean Service",
+  "year": "n.d.",
+  "title": "What are microplastics?",
+  "container": "",
+  "publisher": "",
+  "url": "https://oceanservice.noaa.gov/facts/microplastics.html",
+  "kind": "government"
+ },
+ "nmfs_dredge2010": {
+  "authors": "National Marine Fisheries Service, Southwest Region",
+  "year": "2010",
+  "title": "Essential fish habitat consultation: Operations and maintenance dredging in the San Francisco Bay area and associated dredged material placement",
+  "container": "",
+  "publisher": "NOAA Fisheries",
+  "url": "https://media.fisheries.noaa.gov/2021-11/efhdredgeprogrammatic-071410-final.pdf",
+  "kind": "government"
+ }
+}

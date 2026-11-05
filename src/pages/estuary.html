@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estuarine Zone: Spruce &amp; Spartina (Group 6)</title>
+<meta name="description" content="The estuarine zone: salinity, tides and river flow with real USGS data, muddy sediments and salt marsh habitats, a world map of estuaries, and in-depth adaptations of marsh plants and animals, human threats and solutions.">
+<link rel="preload" href="assets/fonts/Newsreader-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/SourceSans3-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body class="theme-estuary" data-page="estuary">
+<!-- @include partials/header.html -->
+<main id="main">
+  <header class="hero">
+    <div class="hero__media">{{hero:estuary/hero}}</div>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <h1>Estuarine Zone</h1>
+        <p class="hero__dek">Where rivers meet the sea: a shifting world of brackish water, twice-daily tides and black, oxygen-poor mud, and one of the most productive ecosystems on Earth.</p>
+      </div>
+    </div>
+    <p class="hero__credit">{{credit:estuary/hero}}</p>
+  </header>
+
+  <section class="glance" aria-label="At a glance">
+    <div class="glance__inner">
+      <div class="glance__item"><span class="glance__value">0.5–35 ppt</span><span class="glance__label">Salinity range of brackish estuary water</span></div>
+      <div class="glance__item"><span class="glance__value">2 tides a day</span><span class="glance__label">Most coasts: two highs and two lows daily</span></div>
+      <div class="glance__item"><span class="glance__value">34–84 °F</span><span class="glance__label">Chesapeake Bay water temperature, winter to summer</span></div>
+      <div class="glance__item"><span class="glance__value">Mud &amp; peat</span><span class="glance__label">Fine silt, clay and organic sediment, oxygen-poor below the surface</span></div>
+      <div class="glance__item"><span class="glance__value">&lt; 10,000 yr</span><span class="glance__label">Age of most estuaries, formed as sea level rose</span></div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <nav class="rail" aria-label="Sections on this page">
+      <p class="rail__label">On this page</p>
+      <ol>
+        <li><a href="#overview"><span class="rail__n"></span>Overview</a></li>
+        <li><a href="#climate"><span class="rail__n">1</span>Conditions &amp; climate</a></li>
+        <li><a href="#soil"><span class="rail__n">2</span>Substrate</a></li>
+        <li><a href="#distribution"><span class="rail__n">3</span>Global map</a></li>
+        <li><a href="#species"><span class="rail__n">4</span>Species &amp; adaptations</a></li>
+        <li class="rail__sub"><a href="#plants"><span class="rail__n"></span>4A Producers</a></li>
+        <li class="rail__sub"><a href="#animals"><span class="rail__n"></span>4B Animals</a></li>
+        <li><a href="#ecology"><span class="rail__n">+</span>How it works</a></li>
+        <li><a href="#problems"><span class="rail__n">5</span>Human problems</a></li>
+        <li><a href="#solutions"><span class="rail__n">6</span>Solutions</a></li>
+        <li><a href="#gallery"><span class="rail__n">7</span>Pictures</a></li>
+        <li><a href="#sources"><span class="rail__n">8</span>Sources</a></li>
+      </ol>
+    </nav>
+
+    <div class="content">
+<!-- @include sections/estuary-overview.html -->
+<!-- @include sections/estuary-climate.html -->
+<!-- @include sections/estuary-soil.html -->
+<!-- @include sections/estuary-distribution.html -->
+<!-- @include sections/estuary-species.html -->
+<!-- @include sections/estuary-ecology.html -->
+<!-- @include sections/estuary-problems.html -->
+<!-- @include sections/estuary-solutions.html -->
+<!-- @include sections/estuary-gallery.html -->
+      <section class="chapter" id="sources" aria-labelledby="sources-title">
+        <header class="chapter__head">
+          <p class="chapter__num">8</p>
+          <h2 id="sources-title">Sources cited</h2>
+          <p class="chapter__dek">Every numbered superscript on this page links here. Photographs are credited under each image and listed on the <a href="references.html#image-credits">credits page</a>.</p>
+        </header>
+<!-- @sources -->
+        <p><a class="to-top" href="#main">Back to top ↑</a></p>
+      </section>
+    </div>
+  </div>
+</main>
+<!-- @include partials/footer.html -->
+</body>
+</html>

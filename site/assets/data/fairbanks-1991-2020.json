@@ -1,0 +1,183 @@
+{
+ "station": {
+  "id": "USW00026411",
+  "name": "Fairbanks International Airport, Alaska",
+  "lat": 64.8039,
+  "lon": -147.8761,
+  "elev_m": 132
+ },
+ "dataset": "NOAA NCEI U.S. Climate Normals, 1991-2020 (monthly and annual/seasonal normals)",
+ "source_url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+ "query_urls": [
+  "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USW00026411&dataTypes=MLY-TMAX-NORMAL,MLY-TMIN-NORMAL,MLY-TAVG-NORMAL,MLY-PRCP-NORMAL,MLY-SNOW-NORMAL&format=csv&units=standard",
+  "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USW00026411&dataTypes=ANN-TAVG-NORMAL,ANN-TMAX-NORMAL,ANN-TMIN-NORMAL,ANN-PRCP-NORMAL,ANN-SNOW-NORMAL,ANN-TMIN-PRBGSL-T32FP50,ANN-TMIN-PRBLST-T32FP50,ANN-TMIN-PRBFST-T32FP50&format=csv&units=standard"
+ ],
+ "months": [
+  {
+   "month": 1,
+   "tavg_f": -8.3,
+   "tmax_f": 0.6,
+   "tmin_f": -17.2,
+   "tavg_c": -22.4,
+   "tmax_c": -17.4,
+   "tmin_c": -27.3,
+   "prcp_in": 0.61,
+   "prcp_mm": 15.5,
+   "snow_in": 10.2,
+   "snow_cm": 25.9
+  },
+  {
+   "month": 2,
+   "tavg_f": 0.2,
+   "tmax_f": 11.6,
+   "tmin_f": -11.2,
+   "tavg_c": -17.7,
+   "tmax_c": -11.3,
+   "tmin_c": -24.0,
+   "prcp_in": 0.52,
+   "prcp_mm": 13.2,
+   "snow_in": 10.0,
+   "snow_cm": 25.4
+  },
+  {
+   "month": 3,
+   "tavg_f": 10.7,
+   "tmax_f": 24.9,
+   "tmin_f": -3.4,
+   "tavg_c": -11.8,
+   "tmax_c": -3.9,
+   "tmin_c": -19.7,
+   "prcp_in": 0.4,
+   "prcp_mm": 10.2,
+   "snow_in": 6.5,
+   "snow_cm": 16.5
+  },
+  {
+   "month": 4,
+   "tavg_f": 33.7,
+   "tmax_f": 45.6,
+   "tmin_f": 21.7,
+   "tavg_c": 0.9,
+   "tmax_c": 7.6,
+   "tmin_c": -5.7,
+   "prcp_in": 0.34,
+   "prcp_mm": 8.6,
+   "snow_in": 3.1,
+   "snow_cm": 7.9
+  },
+  {
+   "month": 5,
+   "tavg_f": 50.3,
+   "tmax_f": 62.1,
+   "tmin_f": 38.6,
+   "tavg_c": 10.2,
+   "tmax_c": 16.7,
+   "tmin_c": 3.7,
+   "prcp_in": 0.54,
+   "prcp_mm": 13.7,
+   "snow_in": 0.9,
+   "snow_cm": 2.3
+  },
+  {
+   "month": 6,
+   "tavg_f": 61.0,
+   "tmax_f": 71.8,
+   "tmin_f": 50.2,
+   "tavg_c": 16.1,
+   "tmax_c": 22.1,
+   "tmin_c": 10.1,
+   "prcp_in": 1.48,
+   "prcp_mm": 37.6,
+   "snow_in": 0.0,
+   "snow_cm": 0.0
+  },
+  {
+   "month": 7,
+   "tavg_f": 62.9,
+   "tmax_f": 72.7,
+   "tmin_f": 53.1,
+   "tavg_c": 17.2,
+   "tmax_c": 22.6,
+   "tmin_c": 11.7,
+   "prcp_in": 2.26,
+   "prcp_mm": 57.4,
+   "snow_in": 0.0,
+   "snow_cm": 0.0
+  },
+  {
+   "month": 8,
+   "tavg_f": 57.0,
+   "tmax_f": 66.4,
+   "tmin_f": 47.6,
+   "tavg_c": 13.9,
+   "tmax_c": 19.1,
+   "tmin_c": 8.7,
+   "prcp_in": 2.1,
+   "prcp_mm": 53.3,
+   "snow_in": 0.0,
+   "snow_cm": 0.0
+  },
+  {
+   "month": 9,
+   "tavg_f": 45.8,
+   "tmax_f": 55.3,
+   "tmin_f": 36.2,
+   "tavg_c": 7.7,
+   "tmax_c": 12.9,
+   "tmin_c": 2.3,
+   "prcp_in": 1.35,
+   "prcp_mm": 34.3,
+   "snow_in": 2.3,
+   "snow_cm": 5.8
+  },
+  {
+   "month": 10,
+   "tavg_f": 26.2,
+   "tmax_f": 34.1,
+   "tmin_f": 18.4,
+   "tavg_c": -3.2,
+   "tmax_c": 1.2,
+   "tmin_c": -7.6,
+   "prcp_in": 0.76,
+   "prcp_mm": 19.3,
+   "snow_in": 8.2,
+   "snow_cm": 20.8
+  },
+  {
+   "month": 11,
+   "tavg_f": 4.1,
+   "tmax_f": 12.3,
+   "tmin_f": -4.1,
+   "tavg_c": -15.5,
+   "tmax_c": -10.9,
+   "tmin_c": -20.1,
+   "prcp_in": 0.74,
+   "prcp_mm": 18.8,
+   "snow_in": 12.5,
+   "snow_cm": 31.8
+  },
+  {
+   "month": 12,
+   "tavg_f": -4.3,
+   "tmax_f": 4.3,
+   "tmin_f": -13.0,
+   "tavg_c": -20.2,
+   "tmax_c": -15.4,
+   "tmin_c": -25.0,
+   "prcp_in": 0.57,
+   "prcp_mm": 14.5,
+   "snow_in": 10.9,
+   "snow_cm": 27.7
+  }
+ ],
+ "annual_raw_standard_units": {
+  "ANN-PRCP-NORMAL": "11.67",
+  "ANN-SNOW-NORMAL": "64.60",
+  "ANN-TAVG-NORMAL": "28.3",
+  "ANN-TMAX-NORMAL": "38.5",
+  "ANN-TMIN-NORMAL": "18.1",
+  "ANN-TMIN-PRBFST-T32FP50": "09/13",
+  "ANN-TMIN-PRBGSL-T32FP50": "121.0",
+  "ANN-TMIN-PRBLST-T32FP50": "05/13"
+ }
+}
