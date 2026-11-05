@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evergreen Coniferous Forest: Spruce &amp; Spartina (Group 6)</title>
+<meta name="description" content="The evergreen coniferous (boreal) forest: climate with a real NOAA climatogram, podzol soils, global distribution, and in-depth plant and animal adaptations, human threats and solutions.">
+<link rel="preload" href="assets/fonts/Newsreader-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/SourceSans3-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body class="theme-forest" data-page="forest">
+<!-- @include partials/header.html -->
+<main id="main">
+  <header class="hero">
+    <div class="hero__media">{{hero:forest/hero}}</div>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <h1>Evergreen Coniferous Forest</h1>
+        <p class="hero__dek">Also called the boreal forest or taiga: a ring of spruce, fir, pine and larch around the top of the world, where winters last half the year and every living thing is built for cold, snow, fire and poor soil.</p>
+      </div>
+    </div>
+    <p class="hero__credit">{{credit:forest/hero}}</p>
+  </header>
+
+  <section class="glance" aria-label="At a glance">
+    <div class="glance__inner">
+      <div class="glance__item"><span class="glance__value">≈ 50°–70° N</span><span class="glance__label">Core latitude band of the boreal forest</span></div>
+      <div class="glance__item"><span class="glance__value">−22 °C / 17 °C</span><span class="glance__label">January / July mean, Fairbanks, Alaska</span></div>
+      <div class="glance__item"><span class="glance__value">296 mm</span><span class="glance__label">Yearly precipitation (11.7 in), Fairbanks</span></div>
+      <div class="glance__item"><span class="glance__value">121 days</span><span class="glance__label">Median freeze-free growing season</span></div>
+      <div class="glance__item"><span class="glance__value">Spodosols</span><span class="glance__label">Acidic, leached podzol soils; peat and permafrost in lowlands</span></div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <nav class="rail" aria-label="Sections on this page">
+      <p class="rail__label">On this page</p>
+      <ol>
+        <li><a href="#overview"><span class="rail__n"></span>Overview</a></li>
+        <li><a href="#climate"><span class="rail__n">1</span>Climate</a></li>
+        <li><a href="#soil"><span class="rail__n">2</span>Soil</a></li>
+        <li><a href="#distribution"><span class="rail__n">3</span>Global map</a></li>
+        <li><a href="#species"><span class="rail__n">4</span>Species &amp; adaptations</a></li>
+        <li class="rail__sub"><a href="#plants"><span class="rail__n"></span>4A Trees</a></li>
+        <li class="rail__sub"><a href="#animals"><span class="rail__n"></span>4B Animals</a></li>
+        <li><a href="#ecology"><span class="rail__n">+</span>How it works</a></li>
+        <li><a href="#problems"><span class="rail__n">5</span>Human problems</a></li>
+        <li><a href="#solutions"><span class="rail__n">6</span>Solutions</a></li>
+        <li><a href="#gallery"><span class="rail__n">7</span>Pictures</a></li>
+        <li><a href="#sources"><span class="rail__n">8</span>Sources</a></li>
+      </ol>
+    </nav>
+
+    <div class="content">
+<!-- @include sections/forest-overview.html -->
+<!-- @include sections/forest-climate.html -->
+<!-- @include sections/forest-soil.html -->
+<!-- @include sections/forest-distribution.html -->
+<!-- @include sections/forest-species.html -->
+<!-- @include sections/forest-ecology.html -->
+<!-- @include sections/forest-problems.html -->
+<!-- @include sections/forest-solutions.html -->
+<!-- @include sections/forest-gallery.html -->
+      <section class="chapter" id="sources" aria-labelledby="sources-title">
+        <header class="chapter__head">
+          <p class="chapter__num">8</p>
+          <h2 id="sources-title">Sources cited</h2>
+          <p class="chapter__dek">Every numbered superscript on this page links here. Photographs are credited under each image and listed on the <a href="references.html#image-credits">credits page</a>.</p>
+        </header>
+<!-- @sources -->
+        <p><a class="to-top" href="#main">Back to top ↑</a></p>
+      </section>
+    </div>
+  </div>
+</main>
+<!-- @include partials/footer.html -->
+</body>
+</html>

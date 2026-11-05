@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 390" role="img" aria-labelledby="dg-og-t dg-og-d" class="dg">
+<title id="dg-og-t">Osmoconformer versus osmoregulator</title>
+<desc id="dg-og-d">A graph with the salt concentration of the surrounding water on the horizontal axis, from fresh to seawater, and the salt concentration of the animal's body fluids on the vertical axis. A diagonal dashed line shows where body fluids would equal the water. The osmoconformer line, for an oyster or mussel, follows this diagonal: its body fluids match the water. The osmoregulator line, for a blue crab, stays nearly flat and well above the water in dilute water, then rises to meet the water near full seawater. Schematic, not real data.</desc>
+<g transform="translate(90,40)">
+  <!-- axes -->
+  <path d="M0,0 V280 H480" class="ln"/>
+  <!-- equality line -->
+  <path d="M0,280 L480,0" class="ln-dash"/>
+    <!-- conformer (follows diagonal, slightly above at extreme low) -->
+  <path d="M20,262 C120,205 300,100 470,6" fill="none" stroke="var(--a3)" stroke-width="4"/>
+  <!-- regulator -->
+  <path d="M20,120 C140,117 260,106 336,84 C380,58 430,29 470,6" fill="none" stroke="var(--a1)" stroke-width="4"/>
+  <!-- labels -->
+  <g>
+    <rect x="34" y="14" width="12" height="4" fill="var(--a1)"/>
+    <text class="lbl lbl-b" x="52" y="20">Osmoregulator (blue crab)</text>
+    <text class="lbl-sm lbl-mute" x="52" y="37">pumps salt in at the gills to keep its</text>
+    <text class="lbl-sm lbl-mute" x="52" y="52">blood saltier than dilute water</text>
+  </g>
+  <g>
+    <rect x="236" y="214" width="12" height="4" fill="var(--a3)"/>
+    <text class="lbl lbl-b" x="254" y="220">Osmoconformer (oyster, mussel)</text>
+    <text class="lbl-sm lbl-mute" x="254" y="237">body fluids follow the water;</text>
+    <text class="lbl-sm lbl-mute" x="254" y="252">cells adjust amino acids instead</text>
+    <path d="M236,268 H248" class="ln-dash"/>
+    <text class="lbl-sm lbl-mute" x="254" y="272">dashed line: body fluids equal the water</text>
+  </g>
+  <!-- axis labels -->
+  <text class="lbl lbl-b" x="240" y="314" text-anchor="middle">Salinity of the water around the animal</text>
+  <text class="lbl-sm lbl-mute" x="0" y="300">fresh</text>
+  <text class="lbl-sm lbl-mute" x="480" y="300" text-anchor="end">seawater</text>
+  <text class="lbl lbl-b" x="-150" y="-60" text-anchor="middle" transform="rotate(-90)">Salinity of body fluids</text>
+  <text class="lbl-sm lbl-mute" x="-280" y="-14" transform="rotate(-90)">low</text>
+  <text class="lbl-sm lbl-mute" x="0" y="-14" text-anchor="end" transform="rotate(-90)">high</text>
+</g>
+</svg>

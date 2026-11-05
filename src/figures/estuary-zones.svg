@@ -1,0 +1,72 @@
+<svg viewBox="0 0 860 430" role="img" aria-labelledby="dg-ez-t dg-ez-d" class="dg">
+<title id="dg-ez-t">Cross-section of a partially mixed estuary</title>
+<desc id="dg-ez-d">A side view from a river on the left to the ocean on the right. Fresh river water, lighter, flows seaward along the surface. Denser salt water from the ocean pushes upstream along the bottom as a wedge. Lines of equal salinity slope from the surface down toward the bottom upstream, so at any point the bottom water is saltier than the surface. The 5 ppt line separates the upper estuary (fresh to slightly brackish, 0.5 to 5 ppt) from the middle estuary (brackish, 5 to 18 ppt); the 18 ppt line separates the middle estuary from the lower estuary (salty, 18 to 30 ppt and more). A zone of maximum turbidity forms near the head of the salt wedge, where fine sediment is trapped. Tides move salt water in and out twice a day.</desc>
+<defs>
+<marker id="ah-ez" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#1d3b53"/></marker>
+<marker id="ah-ezw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#ffffff"/></marker>
+<linearGradient id="ez-sal" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#d5e7e2"/><stop offset="0.4" stop-color="#a8c9bd"/><stop offset="0.75" stop-color="#5f8f93"/><stop offset="1" stop-color="#3f6f73"/>
+</linearGradient>
+</defs>
+<!-- zone headings -->
+<g class="lbl lbl-b">
+  <text x="165" y="26" text-anchor="middle">Upper estuary</text>
+  <text x="435" y="26" text-anchor="middle">Middle estuary</text>
+  <text x="700" y="26" text-anchor="middle">Lower estuary</text>
+</g>
+<g class="lbl-sm lbl-mute">
+  <text x="165" y="44" text-anchor="middle">fresh to slightly brackish, 0.5 to 5 ppt</text>
+  <text x="435" y="44" text-anchor="middle">brackish, 5 to 18 ppt</text>
+  <text x="700" y="44" text-anchor="middle">salty, 18 to 30+ ppt</text>
+</g>
+<path d="M310,54 V112 M560,54 V112" class="ln-dash"/>
+<!-- water body -->
+<path d="M20,112 H840 V330 H20 Z" fill="url(#ez-sal)"/>
+<!-- salt wedge -->
+<path d="M840,132 C720,150 600,206 470,250 C380,280 280,308 150,330 L840,330 Z" fill="#1d3b53" opacity="0.6"/>
+<!-- isohalines: 5 and 18 ppt mark the zone boundaries -->
+<g style="stroke:#ffffff;stroke-width:1.4;stroke-dasharray:4 4;fill:none">
+  <path d="M310,114 C318,190 290,270 250,328"/>
+  <path d="M560,114 C570,180 540,260 490,328"/>
+  <path d="M770,114 C778,170 760,250 720,328"/>
+</g>
+<g class="lbl-sm lbl-b">
+  <text x="300" y="184" text-anchor="end" style="fill:#1d3b53">5 ppt</text>
+  <text x="545" y="184" text-anchor="end" style="fill:#ffffff">18 ppt</text>
+  <text x="752" y="184" text-anchor="end" style="fill:#ffffff">30 ppt</text>
+</g>
+<!-- surface and bottom -->
+<path d="M20,112 H840" class="ln"/>
+<path d="M20,330 H840 V350 H20 Z" class="f-earth"/>
+<path d="M20,330 H840" class="ln"/>
+<!-- turbidity maximum -->
+<g>
+  <ellipse cx="228" cy="300" rx="78" ry="22" fill="#7a5c40" opacity="0.55"/>
+  <g fill="#5a4330"><circle cx="190" cy="292" r="3"/><circle cx="212" cy="305" r="2.5"/><circle cx="236" cy="290" r="3"/><circle cx="258" cy="306" r="2.5"/><circle cx="276" cy="294" r="3"/><circle cx="170" cy="304" r="2.5"/><circle cx="296" cy="304" r="2.5"/></g>
+</g>
+<!-- flow arrows -->
+<path d="M50,138 H240" class="arrow" style="stroke:#1d3b53;stroke-width:2.4" marker-end="url(#ah-ez)"/>
+<path d="M380,136 H520" class="arrow" style="stroke:#1d3b53;stroke-width:2.4" marker-end="url(#ah-ez)"/>
+<path d="M610,136 H740" class="arrow" style="stroke:#ffffff;stroke-width:2.4" marker-end="url(#ah-ezw)"/>
+<path d="M820,306 H660" class="arrow" style="stroke:#ffffff;stroke-width:2.4" marker-end="url(#ah-ezw)"/>
+<path d="M600,312 H450" class="arrow" style="stroke:#ffffff;stroke-width:2.4" marker-end="url(#ah-ezw)"/>
+<g>
+  <text class="lbl lbl-b" x="50" y="162" style="fill:#1d3b53">Fresh river water</text>
+  <text class="lbl-sm" x="50" y="179" style="fill:#1d3b53">light, flows seaward on top</text>
+</g>
+<g>
+  <text class="lbl lbl-w lbl-b" x="742" y="246" text-anchor="end">Salt water from the ocean</text>
+  <text class="lbl-sm lbl-w" x="742" y="263" text-anchor="end">dense, creeps upstream</text>
+  <text class="lbl-sm lbl-w" x="742" y="278" text-anchor="end">along the bottom</text>
+</g>
+<!-- end labels -->
+<text class="lbl lbl-b" x="24" y="98">River</text>
+<text class="lbl lbl-b" x="836" y="80" text-anchor="end">Ocean</text>
+<text class="lbl-sm lbl-mute" x="836" y="98" text-anchor="end">tides move in and out twice a day</text>
+<!-- notes below -->
+<path d="M228,350 V376" class="ln-thin"/>
+<text class="lbl lbl-b" x="228" y="394" text-anchor="middle">Zone of maximum turbidity</text>
+<text class="lbl-sm lbl-mute" x="228" y="411" text-anchor="middle">fine sediment and nutrients trapped where the waters meet</text>
+<text class="lbl-sm lbl-mute" x="650" y="394" text-anchor="middle">Dashed lines connect points of equal salinity.</text>
+<text class="lbl-sm lbl-mute" x="650" y="411" text-anchor="middle">At any spot, bottom water is saltier than surface water.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 780 470" role="img" aria-labelledby="dg-fwf-t dg-fwf-d" class="dg">
+<title id="dg-fwf-t">Simplified boreal forest food web</title>
+<desc id="dg-fwf-d">Producers at the bottom: conifers such as spruce and fir, willow and other shrubs, and grasses, forbs and aquatic plants. Primary consumers: moose, snowshoe hare, red squirrel and voles. Secondary consumers: Canada lynx and boreal owl. Top consumers: gray wolf and brown bear. Arrows show energy flowing from food to eater: conifers to hare, squirrel and moose; willow to moose and hare; plants to moose and bear; hares to lynx and wolf; squirrels and voles to the owl; moose to wolves and bears. Decomposers break down dead material from every level.</desc>
+<defs><marker id="ah-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5a625e"/></marker>
+<style>.fw-a{stroke:#5a625e;stroke-width:1.4;fill:none;marker-end:url(#ah-fw)}.fw-box{rx:6}</style></defs>
+<g class="lbl-sm lbl-b" style="fill:var(--ink-2)">
+  <text x="14" y="40">Top</text><text x="14" y="56">consumers</text>
+  <text x="14" y="150">Secondary</text><text x="14" y="166">consumers</text>
+  <text x="14" y="260">Primary</text><text x="14" y="276">consumers</text>
+  <text x="14" y="386">Producers</text>
+</g>
+<g>
+  <rect x="300" y="22" width="130" height="40" class="f-a1 fw-box"/><text class="lbl lbl-w lbl-b" x="365" y="47" text-anchor="middle">Gray wolf</text>
+  <rect x="520" y="22" width="130" height="40" class="f-a1 fw-box"/><text class="lbl lbl-w lbl-b" x="585" y="47" text-anchor="middle">Brown bear</text>
+  <rect x="210" y="132" width="130" height="40" class="f-a2 fw-box"/><text class="lbl lbl-w lbl-b" x="275" y="157" text-anchor="middle">Canada lynx</text>
+  <rect x="420" y="132" width="130" height="40" class="f-a2 fw-box"/><text class="lbl lbl-w lbl-b" x="485" y="157" text-anchor="middle">Boreal owl</text>
+  <rect x="130" y="242" width="120" height="40" class="f-a3 fw-box"/><text class="lbl lbl-w lbl-b" x="190" y="267" text-anchor="middle">Snowshoe hare</text>
+  <rect x="290" y="242" width="110" height="40" class="f-a3 fw-box"/><text class="lbl lbl-w lbl-b" x="345" y="267" text-anchor="middle">Red squirrel</text>
+  <rect x="440" y="242" width="90" height="40" class="f-a3 fw-box"/><text class="lbl lbl-w lbl-b" x="485" y="267" text-anchor="middle">Voles</text>
+  <rect x="580" y="242" width="110" height="40" class="f-a3 fw-box"/><text class="lbl lbl-w lbl-b" x="635" y="267" text-anchor="middle">Moose</text>
+  <rect x="130" y="362" width="200" height="40" class="f-a4 fw-box"/><text class="lbl lbl-b" x="230" y="387" text-anchor="middle">Spruce, fir and other conifers</text>
+  <rect x="360" y="362" width="150" height="40" class="f-a4 fw-box"/><text class="lbl lbl-b" x="435" y="387" text-anchor="middle">Willow, shrubs, berries</text>
+  <rect x="540" y="362" width="200" height="40" class="f-a4 fw-box"/><text class="lbl lbl-b" x="640" y="387" text-anchor="middle">Grasses, forbs, aquatic plants</text>
+  <rect x="130" y="428" width="610" height="30" class="f-earth fw-box" opacity="0.85"/><text class="lbl lbl-w lbl-b" x="435" y="448" text-anchor="middle">Decomposers (fungi, bacteria, soil animals) recycle dead matter from every level</text>
+</g>
+<g>
+  <path class="fw-a" d="M190,362 L190,284"/><path class="fw-a" d="M270,362 L330,284"/><path class="fw-a" d="M310,368 L600,284"/>
+  <path class="fw-a" d="M420,362 L620,284"/><path class="fw-a" d="M400,362 L230,284"/><path class="fw-a" d="M505,362 L610,64"/>
+  <path class="fw-a" d="M650,362 L645,284"/><path class="fw-a" d="M700,362 L640,64"/><path class="fw-a" d="M470,362 L485,284"/>
+  <path class="fw-a" d="M200,242 L255,174"/><path class="fw-a" d="M240,242 L360,182 L360,64"/>
+  <path class="fw-a" d="M360,242 L460,174"/><path class="fw-a" d="M485,242 L485,174"/>
+  <path class="fw-a" d="M600,242 L575,130 L432,58"/><path class="fw-a" d="M650,242 L600,64"/>
+</g>
+</svg>

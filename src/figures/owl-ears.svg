@@ -1,0 +1,27 @@
+<svg viewBox="0 0 620 340" role="img" aria-labelledby="dg-owl-t dg-owl-d" class="dg">
+<title id="dg-owl-t">Asymmetric ear openings of the boreal owl</title>
+<desc id="dg-owl-d">Front view of an owl skull. The owl's right ear opening sits about 6.5 millimeters higher than its left, so the line joining them tilts about 12 degrees. Sound from prey below reaches each ear with a different loudness, letting the owl judge height as well as direction.</desc>
+<defs><marker id="ah-owl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" class="f-ink"/></marker></defs>
+<g transform="translate(250,150)">
+  <path d="M-115,0 C-115,-95 115,-95 115,0 C115,62 62,104 0,106 C-62,104 -115,62 -115,0 Z" class="f-tint" stroke="#8b8577" stroke-width="2"/>
+  <circle cx="-46" cy="-6" r="30" class="f-paper" stroke="#8b8577"/><circle cx="46" cy="-6" r="30" class="f-paper" stroke="#8b8577"/>
+  <path d="M-8,26 L0,56 L8,26 Z" class="f-earth"/>
+  <ellipse cx="-102" cy="-12" rx="9" ry="16" class="f-ink"/>
+  <ellipse cx="102" cy="14" rx="9" ry="16" class="f-ink"/>
+  <path d="M-102,-12 L102,14" class="ln-dash"/>
+  <path d="M-128,14 H128" class="ln-thin"/>
+</g>
+<text class="lbl lbl-b" x="20" y="96">Owl’s right ear</text><text class="lbl-sm" x="20" y="114">higher</text>
+<path d="M118,108 L140,132" class="ln-thin"/>
+<text class="lbl lbl-b" x="385" y="150">Owl’s left ear</text><text class="lbl-sm" x="385" y="168">lower</text>
+<path d="M383,160 L362,162" class="ln-thin"/>
+<text class="lbl-sm" x="250" y="40" text-anchor="middle">about 6.5 mm offset, about 12° tilt</text>
+<g transform="translate(540,262)">
+  <ellipse cx="0" cy="0" rx="20" ry="11" class="f-earth"/><circle cx="18" cy="-6" r="7" class="f-earth"/>
+  <text class="lbl-sm lbl-b" x="0" y="32" text-anchor="middle">vole under snow</text>
+</g>
+<path d="M518,256 L362,170" class="arrow" marker-end="url(#ah-owl)"/>
+<path d="M518,262 L150,146" class="arrow" marker-end="url(#ah-owl)" stroke-dasharray="5 4"/>
+<text class="lbl-sm" x="20" y="300">The sound arrives louder in one ear and softer in the other.</text>
+<text class="lbl-sm" x="20" y="318">The brain compares the two to pinpoint the prey’s height and direction.</text>
+</svg>

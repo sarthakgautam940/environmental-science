@@ -1,0 +1,75 @@
+<svg viewBox="0 0 880 500" role="img" aria-labelledby="dg-eu-t dg-eu-d" class="dg">
+<title id="dg-eu-t">How excess nutrients create a low-oxygen dead zone</title>
+<desc id="dg-eu-d">A cross-section from land into an estuary in five numbered steps. 1: Nitrogen and phosphorus wash off farm fields, lawns and pavement and flow from sewage pipes, and nitrogen also falls from the air. 2: The extra nutrients fuel a dense algae bloom in the sunlit surface water. 3: The cloudy water blocks light, so underwater grasses die. 4: Algae die and sink, and bacteria that decompose them use up dissolved oxygen. 5: A layer of light, warm fresher water sits on top of heavier salty water and prevents oxygen from mixing down, so the bottom water becomes hypoxic, below 2 milligrams of oxygen per liter. Fish and crabs swim away if they can; oysters and clams cannot move and may die. A scale shows dissolved oxygen needs: about 5 milligrams per liter or more for most estuary life to thrive, about 3 for bottom fish, crabs and oysters, below 2 is hypoxic, and below 0.2 is anoxic.</desc>
+<defs>
+<marker id="ah-eu" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#1d3b53"/></marker>
+<linearGradient id="eu-water" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7fae8f"/><stop offset="0.3" stop-color="#5f8f93"/><stop offset="1" stop-color="#2f5161"/></linearGradient>
+</defs>
+<!-- land -->
+<path d="M0,150 L150,150 C180,152 200,160 220,176 L230,420 L0,420 Z" fill="#8b7350"/>
+<!-- field rows -->
+<g stroke="#5e7a3e" stroke-width="3" stroke-linecap="round"><path d="M14,146 h40 M62,146 h40 M110,146 h34"/><path d="M20,138 l4,-10 M34,138 l4,-12 M48,138 l4,-10 M68,138 l4,-12 M82,138 l4,-10 M96,138 l4,-12 M116,138 l4,-10 M130,138 l4,-12"/></g>
+<!-- house -->
+<path d="M160,150 v-24 h30 v24 z" fill="#e6d9bf" stroke="#5a4330"/><path d="M156,126 l19,-14 l19,14 z" fill="#7a5c40"/>
+<!-- pipe -->
+<rect x="150" y="196" width="80" height="10" fill="#6d6d6d"/>
+<!-- water -->
+<path d="M220,176 C240,190 250,200 260,200 L880,200 L880,420 L230,420 Z" fill="url(#eu-water)"/>
+<!-- bloom layer -->
+<path d="M262,200 H880 V226 H262 Z" fill="#5a8a3a" opacity="0.85"/>
+<g fill="#7fb24e"><circle cx="300" cy="212" r="4"/><circle cx="340" cy="218" r="3"/><circle cx="390" cy="210" r="4"/><circle cx="450" cy="216" r="3"/><circle cx="510" cy="210" r="4"/><circle cx="580" cy="218" r="3"/><circle cx="650" cy="212" r="4"/><circle cx="720" cy="216" r="3"/><circle cx="790" cy="210" r="4"/><circle cx="850" cy="218" r="3"/></g>
+<!-- pycnocline -->
+<path d="M240,300 H880" class="ln-dash" style="stroke:#ffffff"/>
+<text class="lbl-sm lbl-w" x="600" y="292">warm, fresher water on top</text>
+<text class="lbl-sm lbl-w" x="600" y="318">cool, saltier water below</text>
+<!-- dead zone -->
+<path d="M240,330 H880 V420 H240 Z" fill="#9a4a2c" opacity="0.55"/>
+<!-- sinking algae -->
+<g fill="#a6c98a" opacity="0.9"><circle cx="420" cy="250" r="3"/><circle cx="430" cy="276" r="3"/><circle cx="418" cy="304" r="3"/><circle cx="428" cy="332" r="3"/><circle cx="560" cy="246" r="3"/><circle cx="552" cy="282" r="3"/><circle cx="564" cy="318" r="3"/><circle cx="556" cy="350" r="3"/></g>
+<path d="M490,236 V354" class="arrow" style="stroke:#ffffff;stroke-width:2" marker-end="url(#ah-eu)"/>
+<!-- dead seagrass -->
+<g stroke="#8a7d5a" stroke-width="2" fill="none" stroke-linecap="round"><path d="M300,420 c2,-12 -6,-18 0,-28 M310,420 c-2,-10 6,-14 2,-24 M320,420 c2,-8 -4,-14 4,-20"/></g>
+<!-- bottom -->
+<path d="M0,420 H880 V440 H0 Z" fill="#6b523d"/>
+<!-- oysters -->
+<g fill="#cfc6b4" stroke="#5a4330" stroke-width="1"><ellipse cx="640" cy="414" rx="12" ry="6"/><ellipse cx="660" cy="416" rx="10" ry="5"/><ellipse cx="680" cy="414" rx="12" ry="6"/></g>
+<!-- fish swimming away -->
+<g fill="#e6d9bf"><path d="M800,262 l-22,-8 v16 z M778,262 l-10,-7 v14 z"/><path d="M836,278 l-18,-7 v14 z M818,278 l-8,-6 v12 z"/></g>
+<path d="M800,380 C800,350 800,320 800,286" class="arrow" style="stroke:#ffffff;stroke-width:1.6" marker-end="url(#ah-eu)"/>
+<!-- numbered steps -->
+<g class="lbl lbl-b">
+  <circle cx="30" cy="60" r="13" class="f-a1"/><text class="lbl-w" x="30" y="65" text-anchor="middle">1</text>
+  <circle cx="290" cy="60" r="13" class="f-a1"/><text class="lbl-w" x="290" y="65" text-anchor="middle">2</text>
+  <circle cx="290" cy="366" r="13" fill="#ffffff"/><text x="290" y="371" text-anchor="middle">3</text>
+  <circle cx="520" cy="60" r="13" class="f-a1"/><text class="lbl-w" x="520" y="65" text-anchor="middle">4</text>
+  <circle cx="420" cy="384" r="13" fill="#ffffff"/><text x="420" y="389" text-anchor="middle">5</text>
+</g>
+<g>
+  <text class="lbl lbl-b" x="50" y="56">Nutrients wash in</text>
+  <text class="lbl-sm lbl-mute" x="50" y="73">fertilizer, manure, lawns,</text>
+  <text class="lbl-sm lbl-mute" x="50" y="88">sewage; nitrogen from air</text>
+  <text class="lbl lbl-b" x="310" y="56">Algae bloom</text>
+  <text class="lbl-sm lbl-mute" x="310" y="73">extra N and P fuel fast</text>
+  <text class="lbl-sm lbl-mute" x="310" y="88">growth at the surface</text>
+  <path d="M340,94 L360,196" class="ln-thin"/>
+  <text class="lbl lbl-b" x="540" y="56">Algae die and sink</text>
+  <text class="lbl-sm lbl-mute" x="540" y="73">bacteria decompose them and</text>
+  <text class="lbl-sm lbl-mute" x="540" y="88">use up the dissolved oxygen</text>
+  <path d="M560,94 L560,240" class="ln-thin"/>
+  <text class="lbl-sm lbl-w lbl-b" x="310" y="362">Shade kills</text>
+  <text class="lbl-sm lbl-w lbl-b" x="310" y="377">seagrass</text>
+  <text class="lbl lbl-w lbl-b" x="440" y="380">Hypoxic dead zone</text>
+  <text class="lbl-sm lbl-w" x="440" y="397">layers block mixing; oxygen</text>
+  <text class="lbl-sm lbl-w" x="440" y="412">falls below 2 mg/L</text>
+  <text class="lbl-sm lbl-w lbl-b" x="700" y="410">oysters cannot escape</text>
+  <text class="lbl-sm lbl-w lbl-b" x="866" y="244" text-anchor="end">fish and crabs swim away</text>
+</g>
+<!-- DO scale -->
+<g transform="translate(0,470)">
+  <text class="lbl-sm lbl-b" x="0" y="13">Oxygen needed (mg/L):</text>
+  <rect x="162" y="0" width="14" height="16" class="f-a2"/><text class="lbl-sm" x="182" y="13">5 or more, most life thrives</text>
+  <rect x="372" y="0" width="14" height="16" class="f-a4"/><text class="lbl-sm" x="392" y="13">3, bottom fish, crabs, oysters</text>
+  <rect x="592" y="0" width="14" height="16" fill="#9a4a2c" opacity="0.55"/><text class="lbl-sm" x="612" y="13">below 2, hypoxic</text>
+  <rect x="736" y="0" width="14" height="16" fill="#9a4a2c"/><text class="lbl-sm" x="756" y="13">below 0.2, anoxic</text>
+</g>
+</svg>

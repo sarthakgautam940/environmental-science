@@ -1,0 +1,43 @@
+<svg viewBox="0 0 850 480" role="img" aria-labelledby="dg-fwe-t dg-fwe-d" class="dg">
+<title id="dg-fwe-t">Simplified estuary food web</title>
+<desc id="dg-fwe-d">Producers and detritus at the bottom: phytoplankton; seagrass and algae; smooth cordgrass; and detritus made of dead plant matter. Primary consumers: menhaden, zooplankton, oysters and ribbed mussels, marsh periwinkles and fiddler crabs. Secondary consumers: mummichog and blue crab. Top consumers: osprey, striped bass, and herons and egrets. Arrows show energy flowing from food to eater: phytoplankton to menhaden, zooplankton and oysters and mussels; seagrass and algae and cordgrass to periwinkles; cordgrass to detritus; detritus to oysters and mussels and fiddler crabs; zooplankton to mummichogs; oysters, mussels, periwinkles and fiddler crabs to blue crabs; menhaden to ospreys and striped bass; mummichogs to striped bass and herons; blue crabs to striped bass and herons. Bacteria and fungi break down dead matter from every level.</desc>
+<defs><marker id="ah-fwe" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5a625e"/></marker>
+<style>.fwe-a{stroke:#5a625e;stroke-width:1.4;fill:none;marker-end:url(#ah-fwe)}</style></defs>
+<g class="lbl-sm lbl-b" style="fill:var(--ink-2)">
+  <text x="10" y="40">Top</text><text x="10" y="56">consumers</text>
+  <text x="10" y="150">Secondary</text><text x="10" y="166">consumers</text>
+  <text x="10" y="260">Primary</text><text x="10" y="276">consumers</text>
+  <text x="10" y="378">Producers</text><text x="10" y="394">and detritus</text>
+</g>
+<g>
+  <rect x="120" y="22" width="120" height="40" rx="6" class="f-a1"/><text class="lbl lbl-w lbl-b" x="180" y="47" text-anchor="middle">Osprey</text>
+  <rect x="270" y="22" width="140" height="40" rx="6" class="f-a1"/><text class="lbl lbl-w lbl-b" x="340" y="47" text-anchor="middle">Striped bass</text>
+  <rect x="520" y="22" width="160" height="40" rx="6" class="f-a1"/><text class="lbl lbl-w lbl-b" x="600" y="47" text-anchor="middle">Herons and egrets</text>
+  <rect x="290" y="132" width="140" height="40" rx="6" class="f-a2"/><text class="lbl lbl-w lbl-b" x="360" y="157" text-anchor="middle">Mummichog</text>
+  <rect x="540" y="132" width="140" height="40" rx="6" class="f-a2"/><text class="lbl lbl-w lbl-b" x="610" y="157" text-anchor="middle">Blue crab</text>
+  <rect x="120" y="242" width="110" height="40" rx="6" class="f-a3"/><text class="lbl lbl-w lbl-b" x="175" y="267" text-anchor="middle">Menhaden</text>
+  <rect x="250" y="242" width="125" height="40" rx="6" class="f-a3"/><text class="lbl lbl-w lbl-b" x="312" y="267" text-anchor="middle">Zooplankton</text>
+  <rect x="390" y="242" width="150" height="40" rx="6" class="f-a3"/><text class="lbl lbl-w lbl-b" x="465" y="267" text-anchor="middle">Oysters, mussels</text>
+  <rect x="555" y="242" width="120" height="40" rx="6" class="f-a3"/><text class="lbl lbl-w lbl-b" x="615" y="267" text-anchor="middle">Periwinkles</text>
+  <rect x="690" y="242" width="140" height="40" rx="6" class="f-a3"/><text class="lbl lbl-w lbl-b" x="760" y="267" text-anchor="middle">Fiddler crabs</text>
+  <rect x="120" y="362" width="150" height="40" rx="6" class="f-a4"/><text class="lbl lbl-b" x="195" y="387" text-anchor="middle">Phytoplankton</text>
+  <rect x="290" y="362" width="160" height="40" rx="6" class="f-a4"/><text class="lbl lbl-b" x="370" y="387" text-anchor="middle">Seagrass, algae</text>
+  <rect x="470" y="362" width="160" height="40" rx="6" class="f-a4"/><text class="lbl lbl-b" x="550" y="387" text-anchor="middle">Smooth cordgrass</text>
+  <rect x="670" y="362" width="160" height="40" rx="6" class="f-earth"/><text class="lbl lbl-w lbl-b" x="750" y="387" text-anchor="middle">Detritus</text>
+  <rect x="120" y="430" width="710" height="34" rx="6" class="f-tint"/><text class="lbl" x="475" y="452" text-anchor="middle">Bacteria and fungi break down dead matter from every level, making detritus and releasing nutrients</text>
+</g>
+<g>
+  <!-- producers to primary -->
+  <path class="fwe-a" d="M160,362 L170,284"/><path class="fwe-a" d="M200,362 L300,284"/><path class="fwe-a" d="M240,362 L440,284"/>
+  <path class="fwe-a" d="M400,362 L590,284"/><path class="fwe-a" d="M560,362 L610,284"/>
+  <path class="fwe-a" d="M630,382 L668,382"/>
+  <path class="fwe-a" d="M700,362 L500,284"/><path class="fwe-a" d="M760,362 L760,284"/>
+  <!-- primary to secondary -->
+  <path class="fwe-a" d="M320,242 L350,174"/>
+  <path class="fwe-a" d="M480,242 L570,174"/><path class="fwe-a" d="M615,242 L610,174"/><path class="fwe-a" d="M740,242 L660,174"/>
+  <!-- to top -->
+  <path class="fwe-a" d="M150,242 L170,64"/><path class="fwe-a" d="M215,242 L300,64"/>
+  <path class="fwe-a" d="M340,132 L340,64"/><path class="fwe-a" d="M420,132 L560,64"/>
+  <path class="fwe-a" d="M560,132 L400,64"/><path class="fwe-a" d="M610,132 L610,64"/>
+</g>
+</svg>
