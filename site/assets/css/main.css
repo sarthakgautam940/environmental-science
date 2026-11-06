@@ -763,3 +763,6 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .org__top > .photo { height: 100%; }
 .org__top > .photo .photo__frame { height: 100%; min-height: 280px; aspect-ratio: auto; }
 @media (max-width: 900px) { .org__top > .photo .photo__frame { height: auto; min-height: 0; aspect-ratio: 3/2; } }
+
+.site-footer__inner { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+@media (max-width: 860px) { .site-footer__inner { grid-template-columns: 1fr; } }
