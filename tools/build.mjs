@@ -139,9 +139,8 @@ function buildPage(file) {
       if (!num[k]) { order.push(k); num[k] = order.length; }
       links.push(`<a href="#src-${num[k]}" aria-label="Source ${num[k]}">${num[k]}</a>`);
     }
-    // collapse duplicates while keeping order
-    const uniq = [...new Set(links)];
-    return uniq.length ? `<sup class="cite">${uniq.join('<span class="cite__sep">,</span>')}</sup>` : '';
+    // Citations only register the source for the page's numbered list; no superscript is shown in the text
+    return '';
   });
   pageSources[name] = order;
 
