@@ -4,7 +4,7 @@
 
 - each ecosystem page has its numbered sections, 5-6 organism profiles, and every
   teacher-listed problem and solution
-- every organism has a photo with credit, common and scientific name, a role, and at
+- every organism has a photo, common and scientific name, a role, and at
   least two adaptations, each with a challenge, how it works and why it helps
 - 15-25 sources per page, listed as plain URLs; every citation points at a listed source
 - no em dashes, middots, placeholders or the old site name
@@ -26,7 +26,6 @@ for name in ("coniferous-forest.html", "estuary.html"):
         c = c.split("</article>")[0]
         for label, ok in {
             "photo": 'class="photo' in c,
-            "credit": 'class="credit"' in c,
             "common name": 'class="org__name"' in c,
             "scientific name": 'class="org__sci"><i>' in c,
             "role": 'class="org__role"' in c,
@@ -45,6 +44,8 @@ for name in ("coniferous-forest.html", "estuary.html"):
     for sec in ["overview", "climate", "soil", "location", "species", "ecology", "problems", "sources"]:
         if f'id="{sec}"' not in s:
             issues.append(f"{name}: missing section #{sec}")
+    if 'id="image-sources"' not in s:
+        issues.append(f"{name}: missing image sources list")
     n_src = len(re.findall(r'<li id="src-\d+">', s))
     print(f"{name}: {n_src} sources")
     if not 15 <= n_src <= 25:

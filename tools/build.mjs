@@ -48,6 +48,7 @@ const resolveKey = (k) => (refs[k] && refs[k].alias ? refs[k].alias : k);
 const imgPath = path.join(SRC, 'data', 'images.json');
 const images = fs.existsSync(imgPath) ? JSON.parse(fs.readFileSync(imgPath, 'utf8')) : {};
 const usedImages = new Set();
+let pageImages = null; // images used on the page being built
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -71,7 +72,8 @@ function licenseLabel(l) {
 function creditHtml(key) {
   const im = images[key];
   if (!im) return '';
-  return `<span class="credit">Photo: ${esc(im.author)}, ${esc(im.host || 'Wikimedia Commons')} (<a href="${esc(im.source_url)}" rel="noopener">${esc(licenseLabel(im.license))}</a>)</span>`;
+  if (pageImages) pageImages.add(key);
+  return `<span class="credit">Image: <a href="${esc(im.source_url)}" rel="noopener">${esc(im.source_url)}</a></span>`;
 }
 
 function imgTag(key, mod, { eager = false } = {}) {
@@ -81,6 +83,7 @@ function imgTag(key, mod, { eager = false } = {}) {
     return `<span class="img-missing">[image ${esc(key)}]</span>`;
   }
   usedImages.add(key);
+  if (pageImages) pageImages.add(key);
   const srcset = im.widths.map((w) => `${im.file}-${w}.webp ${w}w`).join(', ');
   const fallback = `${im.file}-${im.widths.includes(1600) ? 1600 : im.widths[0]}.webp`;
   const sizes = SIZES[mod] || SIZES.inline;
@@ -89,10 +92,10 @@ function imgTag(key, mod, { eager = false } = {}) {
 }
 
 function figureHtml(key, mod = 'inline') {
+  // Photos are shown without captions; their source URLs are listed in each page's "Image sources" section
   const im = images[key];
-  const cap = im ? `<span class="photo__caption">${im.caption}</span> ` : '';
   const ratio = im ? ` style="--ar:${im.width}/${im.height}"` : '';
-  return `<figure class="photo photo--${mod}"${ratio}><div class="photo__frame">${imgTag(key, mod)}</div><figcaption>${cap}${creditHtml(key)}</figcaption></figure>`;
+  return `<figure class="photo photo--${mod}"${ratio}><div class="photo__frame">${imgTag(key, mod)}</div></figure>`;
 }
 
 // ---------- reference formatting ----------
@@ -121,6 +124,7 @@ const pageSources = {}; // page -> [keys in order]
 
 function buildPage(file) {
   const name = path.basename(file, '.html');
+  pageImages = new Set();
   let html = expandIncludes(fs.readFileSync(file, 'utf8'));
 
   // citations: assign numbers by first appearance
@@ -154,6 +158,12 @@ function buildPage(file) {
 
   html = html.replace(/<!--\s*@sources\s*-->/g, () =>
     `<ol class="src-list">\n${order.map((k, i) => `<li id="src-${i + 1}">${formatRef(refs[k])}</li>`).join('\n')}\n</ol>`);
+
+  // list of image source URLs for this page
+  html = html.replace(/<!--\s*@imagesources\s*-->/g, () => {
+    const urls = [...new Set([...pageImages].map((k) => images[k].source_url))];
+    return `<ol class="src-list">\n${urls.map((u) => `<li><a href="${esc(u)}" rel="noopener">${esc(u)}</a></li>`).join('\n')}\n</ol>`;
+  });
 
   // active navigation item
   const page = (html.match(/<body[^>]*data-page="([^"]+)"/) || [])[1];
