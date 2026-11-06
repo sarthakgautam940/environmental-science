@@ -766,3 +766,5 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .site-footer__inner { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
 @media (max-width: 860px) { .site-footer__inner { grid-template-columns: 1fr; } }
+.org__top > .photo .photo__frame { position: relative; }
+.org__top > .photo .photo__frame img { position: absolute; inset: 0; }
