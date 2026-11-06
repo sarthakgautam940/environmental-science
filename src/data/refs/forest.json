@@ -583,5 +583,14 @@
   "publisher": "",
   "url": "https://www.nps.gov/subjects/bears/brown-bears.htm",
   "kind": "government"
+ },
+ "soilsofcanada_luvisolic": {
+  "authors": "Canadian Society of Soil Science",
+  "year": "n.d.",
+  "title": "Luvisolic soils (Soils of Canada)",
+  "container": "",
+  "publisher": "",
+  "url": "https://soilsofcanada.ca/orders/luvisolic.php",
+  "kind": "university"
  }
 }
