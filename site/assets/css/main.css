@@ -678,3 +678,83 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .cl { display: block; font-weight: 650; color: var(--a1); }
 .cl--challenge { color: var(--warn); }
 .species__facts > div:first-child dd { font-weight: 600; color: var(--a1); }
+
+/* ---------- 17. Condensed layout (v2) ---------- */
+.lead { font-size: 1.08rem; max-width: var(--measure); }
+.facts { max-width: var(--measure); padding-left: 1.1em; }
+.facts li { margin-bottom: 0.45rem; }
+.facts li strong { color: var(--a1); }
+
+/* organism profile: photo + intro on top, adaptation rows below */
+.orgs { display: grid; gap: 32px; margin: 1.6rem 0 0.5rem; }
+.org { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); scroll-margin-top: calc(var(--header-h) + 64px); overflow: hidden; }
+.org__top { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+.org__top > .photo { margin: 0; }
+.org__top > .photo .photo__frame { aspect-ratio: 4/3; border-radius: 0; }
+.org__top > .photo figcaption { padding: 0 16px 14px; font-size: 0.82rem; }
+.org__intro { padding: 22px clamp(18px, 3vw, 30px); border-left: 1px solid var(--rule); }
+.org__name { font-size: clamp(1.55rem, 2.4vw, 1.95rem); margin: 0 !important; font-weight: 500; }
+.org__sci { font-family: var(--serif); font-size: 1.1rem; color: var(--ink-2); margin: 2px 0 10px; }
+.org__role { display: inline-block; margin: 0 0 12px; padding: 2px 10px; font-size: 0.85rem; font-weight: 650; color: var(--a1); background: color-mix(in srgb, var(--tint) 75%, var(--card)); border-radius: 2px; }
+.org__intro p:last-child { margin-bottom: 0; }
+.traits { border-top: 1px solid var(--rule-strong); }
+.traits__head, .trait { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr) minmax(0, 1.5fr) minmax(0, 1.25fr); gap: 0 20px; padding: 0 clamp(18px, 3vw, 30px); }
+.traits__head { background: var(--paper-2); font-size: 0.85rem; font-weight: 650; color: var(--ink-2); padding-top: 8px; padding-bottom: 8px; }
+.traits__head span:nth-child(2) { color: var(--warn); }
+.trait { padding-top: 14px; padding-bottom: 14px; border-top: 1px solid var(--rule); }
+.trait__name { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; color: var(--a1); margin: 0 !important; line-height: 1.3; }
+.trait p { margin: 0; font-size: 0.95rem; line-height: 1.5; }
+.trait .trait__how { color: var(--ink); }
+.org > .diagram { margin: 0; padding: 4px clamp(18px, 3vw, 30px) 18px; border-top: 1px solid var(--rule); max-width: none; }
+.org > .diagram .diagram__frame { max-width: 720px; }
+@media (max-width: 900px) {
+  .org__top { grid-template-columns: 1fr; }
+  .org__intro { border-left: 0; }
+  .traits__head { display: none; }
+  .trait { grid-template-columns: 1fr; gap: 6px; }
+  .trait p::before { content: attr(data-l) ": "; font-weight: 650; color: var(--a1); }
+  .trait p.trait__ch::before { color: var(--warn); }
+}
+
+/* problem and solution pairs */
+.ps { margin: 1.6rem 0; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); overflow: hidden; }
+.ps__head, .ps__row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.ps__head > div { padding: 10px 20px; font-family: var(--serif); font-size: 1.12rem; color: #fff; }
+.ps__head > div:first-child { background: var(--warn); }
+.ps__head > div:last-child { background: var(--a2); }
+.ps__row { border-top: 1px solid var(--rule); scroll-margin-top: calc(var(--header-h) + 64px); }
+.ps__row > div { padding: 16px 20px; }
+.ps__row > div + div { border-left: 1px solid var(--rule); background: color-mix(in srgb, var(--tint) 22%, var(--card)); }
+.ps__row h3 { font-family: var(--sans); font-size: 1.02rem !important; font-weight: 700; margin: 0 0 6px !important; line-height: 1.35; }
+.ps__row > div:first-child h3 { color: var(--warn); }
+.ps__row > div + div h3 { color: var(--a2); }
+.ps__row p { margin: 0 0 8px; font-size: 0.95rem; line-height: 1.55; }
+.ps__row p:last-child { margin-bottom: 0; }
+.ps__ex { color: var(--ink-2); }
+.ps__ex b { color: var(--ink); }
+@media (max-width: 760px) {
+  .ps__head { display: none; }
+  .ps__row { grid-template-columns: 1fr; }
+  .ps__row > div + div { border-left: 0; border-top: 1px dashed var(--rule-strong); }
+  .ps__row > div:first-child h3::before { content: "Problem: "; }
+  .ps__row > div + div h3::before { content: "Solution: "; }
+}
+.ps-figs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 1.6rem 0; }
+.ps-figs .photo { margin: 0; }
+.ps-figs .photo__frame { aspect-ratio: 4/3; }
+@media (max-width: 760px) { .ps-figs { grid-template-columns: 1fr; } }
+
+/* zone table + estuary key */
+.est-key { columns: 2; column-gap: 32px; font-size: 0.92rem; padding-left: 1.4em; margin: 0.4rem 0 1.4rem; max-width: 760px; }
+.est-key li { margin-bottom: 3px; break-inside: avoid; }
+@media (max-width: 600px) { .est-key { columns: 1; } }
+
+/* source list: plain URLs */
+.src-list { font-size: 0.86rem; line-height: 1.5; padding-left: 2.2em; max-width: 900px; }
+.src-list li { margin-bottom: 5px; scroll-margin-top: calc(var(--header-h) + 24px); }
+.src-list a { word-break: break-all; }
+.src-list li:target { background: color-mix(in srgb, var(--a4) 30%, transparent); }
+
+/* home comparison */
+.compare-table--home th[scope="row"] { width: 20%; }
+.compare-table--home td { width: 40%; }

@@ -1,32 +1,28 @@
-# Spruce & Spartina: Evergreen Coniferous Forest and Estuarine Zone
+# Evergreen Coniferous Forest and Estuarine Zone
 
 An illustrated, fully static educational website for an AP Environmental Science group project.
 
 **Group 6:** Eshan Nath, Aarav Nayak, Dhruv Vijay
 **Course:** AP Environmental Science, Mr. Bosher
 
-The site compares one terrestrial biome (the evergreen coniferous, or boreal, forest) with one aquatic life zone (the estuarine zone). Each ecosystem page follows the same eight numbered sections:
+The site compares one terrestrial biome (the evergreen coniferous, or boreal, forest) with one aquatic life zone (the estuarine zone). It is kept short enough to review in about 15 to 20 minutes. Each ecosystem page has:
 
-1. Characteristic climate (with a real NOAA climatogram for the forest and USGS river-flow data for the estuary)
-2. Soil or bottom substrate
-3. Global map and latitude
-4. Plant and animal species with detailed adaptations (challenge, adaptation, how it works, why it helps, survival and reproduction)
-5. Specific problems caused by humans
-6. Potential solutions
-7. Pictures
-8. Sources cited
-
-There is also an ecology section on each page (food webs, energy flow, nutrient cycling, key relationships, ecosystem services), a comparison page and a full sources and image-credits page.
+- a summary chart (for classmates' notes)
+- 1 Climate (with a real NOAA climatogram for the forest) or conditions (salinity, tides, seasons) for the estuary
+- 2 Soil or bottom substrate
+- 3 Where it is found (map)
+- 4 Six organisms in depth: each adaptation shows the challenge, how it works and why it helps
+- 5 Food web and ecology
+- 6 Human problems paired with solutions and real examples
+- Sources, listed as plain URLs (about 20 per page)
 
 ## Pages
 
 | File | Contents |
 | --- | --- |
-| `site/index.html` | Landing page, project credits, biome vs. life zone primer, links to every section |
+| `site/index.html` | Home page, group credits, biome vs. life zone, side-by-side comparison table |
 | `site/coniferous-forest.html` | Evergreen Coniferous Forest |
 | `site/estuary.html` | Estuarine Zone |
-| `site/compare.html` | Side-by-side comparison, connections and review questions |
-| `site/references.html` | All sources by page, data sets, image credits |
 
 ## Preview locally
 
@@ -69,10 +65,10 @@ The pages in `site/` are generated from source fragments in `src/` by a small No
 node tools/build.mjs
 ```
 
-- `src/pages/` page shells; `src/sections/` the text of each numbered section
+- `src/pages/` the three pages
 - `src/figures/` hand-drawn SVG diagrams; `src/figures/gen/` generated charts and maps
-- `src/data/refs/*.json` every reference; citations are written as `{{cite:key}}` and numbered automatically per page
-- `src/data/images.json` photo metadata (author, license, source) used for captions and the credits table
+- `src/data/refs/*.json` reference URLs; citations are written as `{{cite:key}}`, numbered automatically per page and listed as plain URLs
+- `src/data/images.json` photo metadata (author, license, source) used for the credit under each photo
 
 Other tools (only needed to regenerate data, maps or photos):
 
@@ -102,6 +98,6 @@ The accessibility check needs the local preview server running and `npm install 
 ## Credits and licenses
 
 - Text and diagrams: written and drawn for this project from the sources listed on each page.
-- Photographs: from iNaturalist, Wikimedia Commons and Flickr under CC0, public domain, CC BY or CC BY-SA licenses; every photo is credited beside the image and in `site/references.html#image-credits`.
+- Photographs: from iNaturalist, Wikimedia Commons and Flickr under CC0, public domain, CC BY or CC BY-SA licenses; every photo is credited beside the image.
 - Data: NOAA NCEI U.S. Climate Normals 1991–2020, USGS National Water Information System, RESOLVE Ecoregions 2017 (CC BY 4.0), Natural Earth (public domain).
 - Fonts: Newsreader and Source Sans 3, SIL Open Font License (license files in `site/assets/fonts/`).

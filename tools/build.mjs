@@ -97,20 +97,8 @@ function figureHtml(key, mod = 'inline') {
 
 // ---------- reference formatting ----------
 function formatRef(r) {
-  const parts = [];
-  const authors = r.authors ? esc(r.authors).replace(/\.?$/, '.') : '';
-  if (authors) parts.push(`<span class="ref__authors">${authors}</span>`);
-  parts.push(`<span class="ref__year">(${esc(r.year || 'n.d.')}).</span>`);
-  const titleTxt = esc(r.title).replace(/([^.?!])$/, '$1.');
-  if (r.container) {
-    parts.push(`<span class="ref__title">${titleTxt}</span>`);
-    parts.push(`<i class="ref__container">${esc(r.container).replace(/([^.?!])$/, '$1.')}</i>`);
-  } else {
-    parts.push(`<i class="ref__title">${titleTxt}</i>`);
-  }
-  if (r.publisher) parts.push(`<span class="ref__publisher">${esc(r.publisher).replace(/([^.?!])$/, '$1.')}</span>`);
-  if (r.url) parts.push(`<a class="ref__url" href="${esc(r.url)}" rel="noopener">${esc(r.url)}</a>`);
-  return parts.join(' ');
+  // Sources are listed as plain URLs (no author/title formatting)
+  return `<a href="${esc(r.url)}" rel="noopener">${esc(r.url)}</a>`;
 }
 
 // ---------- assembly ----------
@@ -165,7 +153,7 @@ function buildPage(file) {
   });
 
   html = html.replace(/<!--\s*@sources\s*-->/g, () =>
-    `<ol class="sources">\n${order.map((k, i) => `<li id="src-${i + 1}">${formatRef(refs[k])}</li>`).join('\n')}\n</ol>`);
+    `<ol class="src-list">\n${order.map((k, i) => `<li id="src-${i + 1}">${formatRef(refs[k])}</li>`).join('\n')}\n</ol>`);
 
   // active navigation item
   const page = (html.match(/<body[^>]*data-page="([^"]+)"/) || [])[1];
