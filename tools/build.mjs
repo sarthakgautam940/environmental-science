@@ -92,10 +92,10 @@ function imgTag(key, mod, { eager = false } = {}) {
 }
 
 function figureHtml(key, mod = 'inline') {
+  // Photos are shown without captions; their source URLs are listed in each page's "Image sources" section
   const im = images[key];
-  const cap = im ? `<span class="photo__caption">${im.caption}</span> ` : '';
   const ratio = im ? ` style="--ar:${im.width}/${im.height}"` : '';
-  return `<figure class="photo photo--${mod}"${ratio}><div class="photo__frame">${imgTag(key, mod)}</div><figcaption>${cap}${creditHtml(key)}</figcaption></figure>`;
+  return `<figure class="photo photo--${mod}"${ratio}><div class="photo__frame">${imgTag(key, mod)}</div></figure>`;
 }
 
 // ---------- reference formatting ----------

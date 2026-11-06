@@ -759,3 +759,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .compare-table--home th[scope="row"] { width: 20%; }
 .compare-table--home td { width: 40%; }
 .chapter > .src-list { max-width: 900px; }
+/* photos without captions: let organism photos fill the card height */
+.org__top > .photo { height: 100%; }
+.org__top > .photo .photo__frame { height: 100%; min-height: 280px; aspect-ratio: auto; }
+@media (max-width: 900px) { .org__top > .photo .photo__frame { height: auto; min-height: 0; aspect-ratio: 3/2; } }
