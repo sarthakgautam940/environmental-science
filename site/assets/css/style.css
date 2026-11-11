@@ -86,8 +86,6 @@ p { margin: 0 0 1em; }
 .sources h3 { font-size: 24px; color: var(--ink); margin: 44px 0 14px; }
 .sources ul { margin: 0; padding-left: 18px; }
 .sources li { margin-bottom: 5px; word-break: break-word; }
-.sources .two ul { columns: 2; column-gap: 40px; }
-.sources .two li { break-inside: avoid; }
 
 /* home */
 .tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
@@ -111,8 +109,7 @@ p { margin: 0 0 1em; }
   .row { margin-top: 56px; }
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 20px; }
   .tiles { grid-template-columns: 1fr; }
-  .sources .two ul { columns: 1; }
-}
+  }
 @media (max-width: 860px) {
   .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .scroll img { min-width: 680px; }
