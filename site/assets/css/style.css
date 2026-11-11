@@ -100,9 +100,6 @@ p { margin: 0 0 1em; }
 .tile p { color: var(--muted); margin-bottom: 10px; }
 .tile .go { color: var(--accent); font-weight: 600; }
 .tile:nth-child(2) .go { color: #1f6f78; }
-.credits { display: flex; flex-wrap: wrap; gap: 8px 40px; margin-top: 32px; font-size: 20px; }
-.credits div { color: var(--muted); }
-.credits b { color: var(--ink); font-weight: 600; }
 
 .site-footer { padding: 36px 0 48px; color: var(--muted); font-size: 15px; background: var(--tint); }
 
